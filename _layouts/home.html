@@ -9,6 +9,17 @@
   </head>
   <body>
     {% include navigation.html %}
-    <div class="container-sm">{{ content }}</div>
+    <div class="container-sm">
+      {{ content }}
+      <h1>Latest Posts</h1>
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.excerpt }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </body>
 </html>
