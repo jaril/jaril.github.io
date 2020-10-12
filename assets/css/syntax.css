@@ -1,77 +1,163 @@
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
-.highlight, .highlight .w {
-  color: #586e75;
-}
-.highlight .err {
-  color: #002b36;
-  background-color: #dc322f;
+.highlight {
+  color: #FFFFFF;
+  background-color: #231529;
 }
 .highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
-  color: #657b83;
+  color: #6D6E70;
+  font-style: italic;
 }
 .highlight .cp {
-  color: #b58900;
-}
-.highlight .nt {
-  color: #b58900;
-}
-.highlight .o, .highlight .ow {
-  color: #93a1a1;
-}
-.highlight .p, .highlight .pi {
-  color: #93a1a1;
-}
-.highlight .gi {
-  color: #859900;
-}
-.highlight .gd {
-  color: #dc322f;
-}
-.highlight .gh {
-  color: #268bd2;
-  background-color: #002b36;
+  color: #41ff5b;
   font-weight: bold;
 }
-.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
-  color: #6c71c4;
+.highlight .err {
+  color: #FFFFFF;
+  background-color: #CC0000;
+}
+.highlight .gr {
+  color: #FFFFFF;
+  background-color: #CC0000;
+}
+.highlight .k, .highlight .kd, .highlight .kv {
+  color: #FFF02A;
+  font-weight: bold;
+}
+.highlight .o, .highlight .ow {
+  color: #41ff5b;
+}
+.highlight .p, .highlight .pi {
+  color: #41ff5b;
+}
+.highlight .gd {
+  color: #CC0000;
+}
+.highlight .gi {
+  color: #3FB34F;
+}
+.highlight .ge {
+  font-style: italic;
+}
+.highlight .gs {
+  font-weight: bold;
+}
+.highlight .gt {
+  color: #FFFFFF;
+  background-color: #766DAF;
+}
+.highlight .gl {
+  color: #FFFFFF;
+  background-color: #766DAF;
 }
 .highlight .kc {
-  color: #cb4b16;
+  color: #9f93e6;
+  font-weight: bold;
+}
+.highlight .kn {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.highlight .kp {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.highlight .kr {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.highlight .gh {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.highlight .gu {
+  color: #FFFFFF;
+  font-weight: bold;
 }
 .highlight .kt {
-  color: #cb4b16;
-}
-.highlight .kd {
-  color: #cb4b16;
-}
-.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
-  color: #859900;
-}
-.highlight .sr {
-  color: #2aa198;
-}
-.highlight .si {
-  color: #d33682;
-}
-.highlight .se {
-  color: #d33682;
-}
-.highlight .nn {
-  color: #b58900;
-}
-.highlight .nc {
-  color: #b58900;
+  color: #FAAF4C;
+  font-weight: bold;
 }
 .highlight .no {
-  color: #b58900;
+  color: #FAAF4C;
+  font-weight: bold;
 }
-.highlight .na {
-  color: #268bd2;
+.highlight .nc {
+  color: #FAAF4C;
+  font-weight: bold;
+}
+.highlight .nd {
+  color: #FAAF4C;
+  font-weight: bold;
+}
+.highlight .nn {
+  color: #FAAF4C;
+  font-weight: bold;
+}
+.highlight .bp {
+  color: #FAAF4C;
+  font-weight: bold;
+}
+.highlight .ne {
+  color: #FAAF4C;
+  font-weight: bold;
+}
+.highlight .nl {
+  color: #9f93e6;
+  font-weight: bold;
+}
+.highlight .nt {
+  color: #9f93e6;
+  font-weight: bold;
 }
 .highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
-  color: #859900;
+  color: #9f93e6;
+  font-weight: bold;
+}
+.highlight .ld {
+  color: #9f93e6;
+  font-weight: bold;
 }
 .highlight .ss {
-  color: #859900;
+  color: #9f93e6;
+  font-weight: bold;
+}
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
+  color: #fff0a6;
+  font-weight: bold;
+}
+.highlight .se {
+  color: #FAAF4C;
+  font-weight: bold;
+}
+.highlight .sc {
+  color: #FAAF4C;
+  font-weight: bold;
+}
+.highlight .si {
+  color: #FAAF4C;
+  font-weight: bold;
+}
+.highlight .nb {
+  font-weight: bold;
+}
+.highlight .ni {
+  color: #999999;
+  font-weight: bold;
+}
+.highlight .w {
+  color: #BBBBBB;
+}
+.highlight .nf, .highlight .fm {
+  color: #41ff5b;
+}
+.highlight .py {
+  color: #41ff5b;
+}
+.highlight .na {
+  color: #41ff5b;
+}
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
+  color: #41ff5b;
+  font-weight: bold;
 }
