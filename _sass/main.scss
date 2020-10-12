@@ -8,9 +8,19 @@ section.container {
 }
 
 section header {
+  color: #0a2540;
   padding: 2em 0;
 }
 
-p {
+p, li {
   color: grey;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+}
+
+nav svg {
+  margin-right: 0.25em;
 }
