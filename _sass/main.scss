@@ -1,7 +1,3 @@
-.current {
-  color: green;
-}
-
 section.container {
   max-width: 620px;
   padding: 4em 0;
@@ -13,14 +9,24 @@ section header {
 }
 
 p, li {
-  color: grey;
+  color: #425466;
 }
 
 nav a {
   display: flex;
   align-items: center;
+  color: #AAA;
 }
 
 nav svg {
   margin-right: 0.25em;
+}
+
+.highlighter-rouge {
+  padding: 1em 0em;
+}
+
+pre.highlight {
+  padding: 2em;
+  background-color: #f5f5f5;
 }
