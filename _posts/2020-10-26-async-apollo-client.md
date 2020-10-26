@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Asynchronously instantiating Apollo Client with React
+description: Instantiating an Apollo Client synchronously is covered thoroughly in Apollo’s documentation, but it doesn’t cover are cases where the developer might have to instantiate the client asynchronously
 ---
 Instantiating an Apollo Client synchronously is covered thoroughly in [Apollo's documentation](https://www.apollographql.com/docs/react/get-started/). What it doesn't cover are cases where the developer might have to instantiate the client asynchronously.
 
